@@ -1,0 +1,78 @@
+PODS:
+  - FBSnapshotTestCase (HEAD based on 1.4)
+  - LlamaKit (0.1.0)
+  - Nimble (0.2.0)
+  - Nimble-Snapshots (0.1):
+    - FBSnapshotTestCase
+    - Nimble
+    - Quick
+  - Quick (0.2.0)
+  - ReactiveCocoa (2.3.1):
+    - LlamaKit
+    - ReactiveCocoa/UI (= 2.3.1)
+  - ReactiveCocoa/Core (2.3.1):
+    - LlamaKit
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1):
+    - LlamaKit
+  - ReactiveCocoa/UI (2.3.1):
+    - LlamaKit
+    - ReactiveCocoa/Core
+  - Swift-RAC-Macros (0.1):
+    - ReactiveCocoa
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (HEAD)
+  - LlamaKit (from `https://github.com/ashfurrow/LlamaKit`, branch `rac_podspec`)
+  - Nimble (from `https://github.com/Quick/Nimble`)
+  - Nimble-Snapshots (from `https://github.com/ashfurrow/Nimble-Snapshots.git`)
+  - Quick (from `https://github.com/Quick/Quick`)
+  - ReactiveCocoa (from `https://github.com/ashfurrow/ReactiveCocoa`, branch `podspec`)
+  - Swift-RAC-Macros (from `https://github.com/ashfurrow/Swift-RAC-Macros`)
+
+EXTERNAL SOURCES:
+  LlamaKit:
+    :branch: rac_podspec
+    :git: https://github.com/ashfurrow/LlamaKit
+  Nimble:
+    :git: https://github.com/Quick/Nimble
+  Nimble-Snapshots:
+    :git: https://github.com/ashfurrow/Nimble-Snapshots.git
+  Quick:
+    :git: https://github.com/Quick/Quick
+  ReactiveCocoa:
+    :branch: podspec
+    :git: https://github.com/ashfurrow/ReactiveCocoa
+  Swift-RAC-Macros:
+    :git: https://github.com/ashfurrow/Swift-RAC-Macros
+
+CHECKOUT OPTIONS:
+  LlamaKit:
+    :commit: 3e1f3b480213992cbc4f5706e5c27e49f6c18d39
+    :git: https://github.com/ashfurrow/LlamaKit
+  Nimble:
+    :commit: 89affdde2b3bc946b4ff33683dc3b573548e9c3c
+    :git: https://github.com/Quick/Nimble
+  Nimble-Snapshots:
+    :commit: b90c44357b0f075afb4c3ef7d734487d781d5c5c
+    :git: https://github.com/ashfurrow/Nimble-Snapshots.git
+  Quick:
+    :commit: 2b343f639130dcca9e8a3e0c5caec9bd50cc586c
+    :git: https://github.com/Quick/Quick
+  ReactiveCocoa:
+    :commit: 53d7c15eaa4d2a3410a992283a80832d934cf83c
+    :git: https://github.com/ashfurrow/ReactiveCocoa
+  Swift-RAC-Macros:
+    :commit: f01ada8460d42ff49c2e1f478b60d3f68a1188fd
+    :git: https://github.com/ashfurrow/Swift-RAC-Macros
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: f9f225b5ba11c8d8c09075590490df16314e4d62
+  LlamaKit: f9e1b1740818d4d79eaed5a4f5d4db5f13fa720f
+  Nimble: 79679d4cd5a3710db75e1dd9f5479f71842da6a6
+  Nimble-Snapshots: a0a190abd76c1f07618cbc4e271d45cce10e4c5e
+  Quick: fdcce541eb5d73f5ac78f95c770ca6d6d69f0b81
+  ReactiveCocoa: f32c3dac1a4eddfc37f12af224321ddb8f62b0ef
+  Swift-RAC-Macros: 674067568c87398d6fc7be57af930c5d0e5cd10e
+
+COCOAPODS: 0.36.0.beta.1

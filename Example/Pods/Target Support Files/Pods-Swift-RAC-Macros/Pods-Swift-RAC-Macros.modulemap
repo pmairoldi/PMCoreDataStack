@@ -1,0 +1,6 @@
+framework module Swift_RAC_Macros {
+  umbrella header "Pods-Swift-RAC-Macros-umbrella.h"
+
+  export *
+  module * { export * }
+}
